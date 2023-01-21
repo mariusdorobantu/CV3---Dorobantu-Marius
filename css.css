@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Ma+Shan+Zheng&family=Moon+Dance&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Rubik+Distressed&family=Sofia+Sans:wght@100&family=Yeon+Sung&display=swap');
+* 
+{
+    color: white;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body 
+{
+    background:  rgb(19, 5, 71);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+}
+.intregul-cv 
+{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    align-items: center;
+    column-gap: 5%;
+    width: 30%;
+    max-width: 1000px;
+    min-height: 800px;
+    box-shadow: 0 -20px 70px;
+    background: #000000;
+    padding: 20px;
+}
+.cutii 
+{
+    background: rgb(0, 0, 0);
+    
+}
+.unu 
+{
+    height: 90%;
+    align-self: end;
+    grid-row: 1 / 4;
+    padding: 15px;
+    background:rgb(20, 18, 18)
+}
+
+h2 
+{
+    letter-spacing: 0.2em;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+h3 span 
+{
+    padding: 5px 15px;
+    background: rgb(55, 26, 160);
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+}
+p 
+{
+    font-size: 12px;
+}
+.doi 
+{
+    align-self:flex-start;
+    height: 65%; 
+}
+.catevacuvinte
+{
+    padding: 20px 0px;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+}
+
+.despre-curs {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+}
+
+.adresa 
+{
+    color: rgb(55, 26, 160);
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: bold;
+}
+.poza 
+{
+    display: flex;
+    justify-content: center;
+}
+.trei 
+{
+    height: 110%;
+    padding: 8px;
+}
+.patru 
+{
+    align-self: flex-end;
+    height: 115%;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+}
+h5 
+{
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    padding: 
+}
+h4 
+{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+}
+.timeline-bar 
+{
+    border-left: 2px solid rgb(55, 26, 160);
+}
+.educatie 
+{
+    line-height: 1.5;
+    position: relative;
+    padding-left: 10px;
+}
+.educatie:before
+{
+    content: '';
+    display:block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(254, 254, 255);
+    border: 3px solid rgb(55, 26, 160);
+    position: absolute;
+    top: 14px;
+    left: -6px;
+}
+.cursul 
+{
+    padding-top: 10px;
+    color: rgb(78, 51, 172);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    word-spacing: 0.1em;
+}
+.padding-education 
+{
+    padding-bottom: 10px;
+}
+
+.padding-work 
+{
+    padding: 20px 0px;
+}
+.w3-container {
+    width: 50%>50%; 
+}
+.progress {
+    margin-top: 50px;
+    margin-left: -90px;
+    width: 50px;
+    height: 10px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden; /* si parte din stanga este rotunjita */
+}
+/* aici daca schimbi % latimii, se modifica culoarea mov */
+.progress__fill1 {
+    width: 80%;
+    height: 100%;
+    background: rgb(55, 26, 160);
+}
+.progress__fill2 {
+    width: 50%;
+    height: 100%;
+    background: rgb(55, 26, 160);
+}
+.progress__fill3 {
+    width: 20%;
+    height: 100%;
+    background: rgb(55, 26, 160);
+}
+.perioada 
+{ 
+    font-weight: bold;
+    font-size: 10px;
+    word-spacing: 0.1em;
+}
